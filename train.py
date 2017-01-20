@@ -10,9 +10,9 @@ from utils import load_data
 
 
 
-data = load_data('./stage/0/0_0.dcm')
+data = load_data()
 
-labels = pd.read_csv('stage1_labels.csv')
+labels = pd.read_csv('stage1_labels.csv/stage1_labels.csv')
 
 num_examples = data.shape[0]
 
